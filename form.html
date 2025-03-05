@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://thomas980130.github.io/STUSTThomas0130/1.css">
+    <title>表單</title>
+</head>
+<body>
+<header>
+    <h1>表單填寫</h1>
+    <nav><ul><li><a href="3.html">返回</a></li></ul></nav>
+</header>    
+<main>
+    <form action="https://formspree.io/f/mdkaqqyp" method="POST">
+    </form>
+        <label for="name">姓名：</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">電子郵件：</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">留言：</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <h3>使用設備</h>
+        <select>
+            <optgroup label="設備">
+                <option value="a">電腦</option>
+                <option value="b">手機</option>
+            </optgroup>
+        </select>
+    <p>
+        <button type="submit">提交</button>
+        <button type="reset">重製</button>
+    </p>
+    </form>
+</main>
+<footer>
+    <p>yuen1225lee@gmail.com</p>    
+</footer>
+</body>
+</html>
